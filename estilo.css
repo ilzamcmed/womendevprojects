@@ -11,7 +11,8 @@
 
 /* Menu*/
 .header-top{
-    height: 860px;
+    display: flex;
+    height: 960px;
     width: 100%;
     background: linear-gradient(180deg, #2F4076 0%, rgba(47, 64, 118, 0.84) 100%);
 }
@@ -74,7 +75,8 @@ a{
     color: #54D1BB;
 }
 .woman-pc{
-    width: 300px;
+    width: 350px;
+    height: 320px;
     border-radius: 100%;
 }
 .menu-paragraph{
@@ -87,6 +89,7 @@ a{
 .projects{
     /*height: 850px;*/
     background-color: #EDEDED;
+    padding-top: 20px;
 }
 .main-title-projects{
     padding-top: 30px;
@@ -119,7 +122,7 @@ a{
     text-align: left;
     font-size: 16px;
     padding-top: 8%;
-    padding-bottom: 4%;
+    padding-bottom: 8%;
     color: #395594;
 }
 .card-paragraph{
@@ -130,7 +133,7 @@ a{
     text-align: left;
     font-size: 16px;
     padding-top: 8%;
-    padding-bottom: 4%;
+    padding-bottom: 8%;
     color: #54D1BB;;
 }
 .cards3-4{
@@ -143,25 +146,26 @@ a{
     text-align: left;
     font-size: 16px;
     padding-top: 8%;
-    padding-bottom: 4%;
+    padding-bottom: 8%;
     color: #FFBD13;
 }
 .card-title-purple{
     text-align: left;
     font-size: 16px;
     padding-top: 8%;
-    padding-bottom: 4%;
+    padding-bottom: 8%;
     color: #4B2F61;
 }
 .contact{
-    height: 300px;
+    height: 500px;
     background: linear-gradient(180deg, #46BEB2 0%, #3A7C95 100%);
 }
 .main-title-contact{
-    padding-top: 20px;
+    padding-top: 30px;
     text-align: center;
-    padding: 2%;
+    padding: 4%;
     color: white;
+    font-size: 52px;
 }
 .contact-paragraph{
     width: 40%;
@@ -170,6 +174,7 @@ a{
     margin-top: 10px;
     padding-bottom: 10px;
     color: #3E3B3B;
+    font-size: 20px;
 }
 .email{
     color: white;
